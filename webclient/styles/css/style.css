@@ -1,0 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background: #f5f5f5; }
+
+body * {
+  box-sizing: border-box; }
+
+.container {
+  margin-top: 70px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between; }
+  @media screen and (max-width: 760px) {
+    .container {
+      flex-direction: column; } }
+
+.table
+{
+width: 100%;
+  
+padding-top: 90px;
+overflow: scroll;
+font-size: 20px; 
+}
+.tablerow
+{
+ font-size: 16px; 
+
+}
+.paginiation
+{
+padding-right: 5000px;
+}
+.menu
+{
+  float:left;
+  color:red;
+}
+.footer-bottom {
+  position:absolute;
+   bottom:0;
+   width:100%;
+    color: #848484;
+   height:70px; 
+    font-size: 14px;  
+  background: #673ab7;
+}
+.footer-bottom p{
+ float: right;
+ padding-top: 170px: 
+}
+.piesize
+{
+  padding-left: 500px;
+  padding-top: 200px;
+   margin: 0;
+}
+.header {
+  position: fixed;
+  background: #673ab7;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 999; }
+
+.socialIcons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .socialIcons ul {
+    margin: 0;
+    padding: 0; }
+    .socialIcons ul li {
+      float: left;
+      padding-left: 20px;
+      list-style: none; }
+      .socialIcons ul li a {
+        display: block;
+        color: #fff;
+        text-decoration: none; }
+        .socialIcons ul li a .fa {
+          font-size: 30px; }
+        .socialIcons ul li a:hover {
+          text-decoration: underline; }
+        .socialIcons ul li a span {
+          padding-left: 6px; }
+          @media screen and (max-width: 760px) {
+            .socialIcons ul li a span {
+              display: none; } }
+        .socialIcons ul li a.socialIcons__linkedIn:hover i {
+          color: #007bb6; }
+
+
+
+
+/*# sourceMappingURL=style.css.map */
+#leftbarmenu
+{
+    height: '100%';
+}

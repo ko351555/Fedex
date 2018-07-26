@@ -1,0 +1,56 @@
+.header{
+    position: fixed;
+    background: #673ab7;
+    color: rgba(255, 255, 255, 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 999;
+}
+
+.socialIcons{
+  flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul{
+      margin: 0;
+      padding: 0;
+      li {
+        float: left;
+        padding-left: 20px;
+        list-style: none;
+        a{
+          display: block;
+          color: #fff;
+          text-decoration: none;
+          .fa{
+            font-size: 30px
+          }
+          &:hover{
+            text-decoration: underline;
+          }
+          span{
+            padding-left: 6px;
+            @media screen and (max-width: 760px){
+                display: none;
+            }
+          }
+          &.socialIcons__linkedIn{
+            &:hover{
+              i{
+                color: #007bb6;
+              }
+            }
+          }
+        }
+      } 
+    }
+}
